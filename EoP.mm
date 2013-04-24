@@ -55,7 +55,7 @@
 </node>
 <node CREATED="1366807582228" ID="Freemind_Link_772793949" MODIFIED="1366807584064" TEXT="concrete">
 <node COLOR="#669900" CREATED="1366807662258" ID="Freemind_Link_1599628422" MODIFIED="1366808146190" TEXT="mammal"/>
-<node CREATED="1366807664683" ID="Freemind_Link_919202054" MODIFIED="1366807666110" TEXT="biped"/>
+<node COLOR="#669900" CREATED="1366807664683" ID="Freemind_Link_919202054" MODIFIED="1366808203062" TEXT="biped"/>
 </node>
 <node COLOR="#006699" CREATED="1366808084017" ID="Freemind_Link_1716670308" MODIFIED="1366808089097" TEXT="compsci">
 <node CREATED="1366808089736" ID="Freemind_Link_1275702802" MODIFIED="1366808092267" TEXT="concepts">
@@ -74,6 +74,68 @@
 </node>
 <node CREATED="1366807781696" ID="Freemind_Link_168177264" MODIFIED="1366807785827" TEXT="props">
 <node CREATED="1366807786258" ID="Freemind_Link_391891831" MODIFIED="1366807794555" TEXT="interesting to avoid concrete entities"/>
+</node>
+</node>
+</node>
+<node CREATED="1366808222172" ID="Freemind_Link_458757379" MODIFIED="1366808226132" TEXT="Value">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1366808236140" ID="Freemind_Link_1784908522" MODIFIED="1366808257748" TEXT="Datum">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1366808240276" ID="Freemind_Link_921512713" MODIFIED="1366808246408" TEXT="sequence of {0,1}"/>
+<node CREATED="1366808516414" ID="Freemind_Link_1078020767" MODIFIED="1366808519401" TEXT="well-formed">
+<node CREATED="1366808527885" ID="Freemind_Link_1585537832" MODIFIED="1366808532417" TEXT="wrt value type"/>
+<node CREATED="1366808539222" ID="Freemind_Link_263498947" MODIFIED="1366808547712" TEXT="iff is representation"/>
+</node>
+</node>
+<node CREATED="1366808266876" ID="Freemind_Link_735053636" MODIFIED="1366808274251" TEXT="Value Type">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1366808277012" ID="Freemind_Link_201152343" MODIFIED="1366808296607" TEXT="species"/>
+<node CREATED="1366808297347" ID="Freemind_Link_1448481822" MODIFIED="1366808302423" TEXT="set of datums"/>
+<node CREATED="1366808344250" ID="Freemind_Link_167287320" MODIFIED="1366808350465" TEXT="Representation">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1366808351586" ID="Freemind_Link_1575063827" MODIFIED="1366808353917" TEXT="datum"/>
+<node CREATED="1366808354450" ID="Freemind_Link_495881725" MODIFIED="1366808357013" TEXT="entity"/>
+</node>
+<node CREATED="1366808369561" ID="Freemind_Link_790610919" MODIFIED="1366808374041" TEXT="Interpretation">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1366808374761" ID="Freemind_Link_1835645349" MODIFIED="1366808376645" TEXT="entity"/>
+<node CREATED="1366808377113" ID="Freemind_Link_347334080" MODIFIED="1366808378613" TEXT="datum"/>
+</node>
+<node CREATED="1366808591860" ID="Freemind_Link_1259124180" MODIFIED="1366808596975" TEXT="properly partial">
+<node CREATED="1366808597908" ID="Freemind_Link_1071251976" MODIFIED="1366808608439" TEXT="only subset of species is represented">
+<node COLOR="#669900" CREATED="1366808648579" ID="Freemind_Link_1570338514" MODIFIED="1366808668338" TEXT="&quot;int&quot;"/>
+</node>
+<node CREATED="1366808623099" ID="Freemind_Link_528889277" MODIFIED="1366808633270" TEXT="opp: total">
+<node COLOR="#669900" CREATED="1366808660570" ID="Freemind_Link_1136365209" MODIFIED="1366808666890" TEXT="&quot;bool&quot;"/>
+</node>
+</node>
+<node CREATED="1366808680753" ID="Freemind_Link_1032919804" MODIFIED="1366808686789" TEXT="uniquely represented">
+<node CREATED="1366808701113" ID="Freemind_Link_38630636" MODIFIED="1366809180657" TEXT="entity-&gt;datum is function"/>
+<node CREATED="1366809262579" ID="Freemind_Link_1402082078" MODIFIED="1366809284512" TEXT="each entity has at most 1&#xa;datum it is mapped to"/>
+<node CREATED="1366808886997" ID="Freemind_Link_1259312909" MODIFIED="1366808889960" TEXT="e.g.">
+<node COLOR="#669900" CREATED="1366808894556" ID="Freemind_Link_551553359" MODIFIED="1366808912548" TEXT="integer:two&apos;s complement"/>
+<node COLOR="#669900" CREATED="1366808831414" ID="Freemind_Link_294481527" MODIFIED="1366808913404" TEXT="not: 0 false - everything else true"/>
+</node>
+<node CREATED="1366809521837" ID="Freemind_Link_836371228" MODIFIED="1366809554759" TEXT="|- equality =&gt; representational equality"/>
+</node>
+<node CREATED="1366808924651" ID="Freemind_Link_261875100" MODIFIED="1366809098155" TEXT="unambiguous">
+<node CREATED="1366809006722" ID="Freemind_Link_1543262009" MODIFIED="1366809190392" TEXT="entity-&gt;datum is injective"/>
+<node CREATED="1366809120639" ID="Freemind_Link_1331394279" MODIFIED="1366809138119" TEXT="each datum has at most 1 entity&#xa;mapping to it"/>
+<node CREATED="1366809578499" ID="Freemind_Link_585721477" MODIFIED="1366809597798" TEXT="|- represent.equality =&gt; equality"/>
+</node>
+</node>
+<node CREATED="1366808400505" ID="Freemind_Link_460388555" MODIFIED="1366808415124" TEXT="(datum, interpretation)">
+<node CREATED="1366808415760" ID="Freemind_Link_593069628" MODIFIED="1366808422428" TEXT="eq (datum, entity)"/>
+</node>
+<node CREATED="1366808444904" ID="Freemind_Link_1688012869" MODIFIED="1366808455051" TEXT="E.g.">
+<node CREATED="1366808477591" ID="Freemind_Link_491972259" MODIFIED="1366809341789" TEXT="(integer, 32-bit two&apos;s complement big-endian)"/>
+</node>
+<node CREATED="1366809376496" ID="Freemind_Link_1123117502" MODIFIED="1366809427759" TEXT="equal">
+<font BOLD="true" NAME="SansSerif" SIZE="12"/>
+<node CREATED="1366809381416" ID="Freemind_Link_438993798" MODIFIED="1366809385844" TEXT="two values are equal"/>
+<node CREATED="1366809386480" ID="Freemind_Link_1088441417" MODIFIED="1366809407043" TEXT="their interpretation is the same"/>
+<node CREATED="1366809432374" ID="Freemind_Link_1189570038" MODIFIED="1366809438850" TEXT="representational equal">
+<node CREATED="1366809439471" ID="Freemind_Link_663971167" MODIFIED="1366809454193" TEXT="their datums are the same"/>
 </node>
 </node>
 </node>
