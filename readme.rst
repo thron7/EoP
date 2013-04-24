@@ -1,4 +1,3 @@
-EoP
-===
+Stepanov, McJones, "Elements of Programming", Addison-Wesley Professional, 2009
 
-Elements of Programming
+http://www.elementsofprogramming.com/
